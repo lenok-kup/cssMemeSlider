@@ -1,2 +1,2 @@
 # cssMemeSlider
-Meme slider
+Meme slider with funny pictures
