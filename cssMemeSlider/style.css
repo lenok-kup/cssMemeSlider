@@ -51,9 +51,17 @@ input[name="control"] {
 }
 
 .dot {
+    height: 1.4rem;
+    width: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circle {
     width: 0.7rem;
     height: 0.7rem;
-    margin: 0.3rem;
     cursor: pointer;
     background-color: #f9f7f7;
     opacity: .5;
@@ -61,13 +69,13 @@ input[name="control"] {
     transition: all 1s ease-in-out;
 }
 
-.dot:hover {
+.circle:hover {
     opacity: .7;
     background-color: #e0f44c;
     transform: scale(1.2);
 }
 
-.dot:active {
+.circle:active {
     opacity: .7;
     background-color: #e98e06;
     transform: scale(1.3);
@@ -135,11 +143,11 @@ input[name="control"] {
 }
 
 
-#inp1:checked~.slides-info .navigation .dot1,
-#inp2:checked~.slides-info .navigation .dot2,
-#inp3:checked~.slides-info .navigation .dot3,
-#inp4:checked~.slides-info .navigation .dot4,
-#inp5:checked~.slides-info .navigation .dot5 {
+#inp1:checked~.slides-info .navigation .dot1 .circle,
+#inp2:checked~.slides-info .navigation .dot2 .circle,
+#inp3:checked~.slides-info .navigation .dot3 .circle,
+#inp4:checked~.slides-info .navigation .dot4 .circle,
+#inp5:checked~.slides-info .navigation .dot5 .circle {
     opacity: 1;
     background-color: #f99909;
 }
