@@ -67,7 +67,7 @@ input[name="control"] {
     transform: scale(1.2);
 }
 
-.dot:focus {
+.dot:active {
     opacity: .7;
     background-color: #e98e06;
     transform: scale(1.3);
